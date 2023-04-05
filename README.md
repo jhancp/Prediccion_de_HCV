@@ -1,4 +1,4 @@
-## Descripción 🏝
+## Descripción 😊
 
 Proyecto para poder detectar infectados por el virus de hepatitis C por medio de muestras de sangre utilizando el lenguaje de programación Python. 
 El dataset utilizado es parte de UC Irvine Machine Learning Repository:
@@ -15,7 +15,7 @@ Este proyecto esta dividido en 3 partes importantes etapas:
 
 ## Autor ✒️
 **Jhan Carlos Caya Pérez**
-[LinkedIn](https://www.linkedin.com/in/jhancp/) 
+[![linkedin](https://img.shields.io/static/v1?label=&message=linkedin&color=0e76a8&logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/jhancp/)
 
 ## Contratación
 Si quieres contactarme, puedes escribirme a jhan.cayap@gmail.com 
