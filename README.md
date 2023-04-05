@@ -1,6 +1,6 @@
 ## Descripción 😊
 
-Este proyecto represento mi trabajo final en el Programa de Especialización en Análisis de Datos con Python de [Data Science Research Perú](https://www.datascience.pe), este proyecto busca poder detectar infectados por el virus de hepatitis C por medio de muestras de sangre utilizando el lenguaje de programación Python. 
+Este proyecto representó mi trabajo final en el [Programa de Especialización en Análisis de Datos con Python de Data Science Research Perú](https://drive.google.com/file/d/1DOwuVodwuh-Ec_fF-qsiCSzIvVybSMgY/view?usp=sharing), el proyecto busca poder detectar infectados por el virus de hepatitis C por medio de muestras de sangre utilizando el lenguaje de programación Python. 
 El dataset utilizado es parte de UC Irvine Machine Learning Repository:
 
 [HCV data Data Set](https://archive.ics.uci.edu/ml/datasets/HCV+data) 
