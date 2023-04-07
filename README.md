@@ -7,14 +7,15 @@ El dataset utilizado es parte de UC Irvine Machine Learning Repository:
 
 [HCV data Data Set](https://archive.ics.uci.edu/ml/datasets/HCV+data) 
 
-Este proyecto esta dividido en 3 partes importantes etapas:
-1. La etapa de análisis exploratorio, en la cual se realiza la limpieza e imputación de datos, análisis de las variables categóricas y numéricas para finalmente realizar un análisis de correlación entre dichas variables.
+Este proyecto constó de tres procesos importantes para lograr el objetivo esperado:
 
-2. La etapa de trasformación y preparación de datos, en esta etapa se define el formato de los datos asi como el balanceo de los mismos para finalmente separarlos en dos grupos los cuales seran para entrenamiento y validación que se encuentran en una relación 80 y 20, respectivamente.
+Proceso N°1: Consistió en la realización del análisis exploratorio de los datos, esto implica la limpieza e imputación de datos, el análisis de las variables categóricas y numéricas y el análisis de correlación entre dichas variables.
 
-3. La etapa de modelos de predicción, en esta última etapa se realiza el entrenamiento de tres modelos (Regresión Logística, KNN y Random Forest), para finalmente realizar una comparación entre los 3 modelos, dando como resultado que el modelo de predicción que se acomoda mejor al dataset utilizado es Random Forest.
+Proceso N°2: Aqui se realizó la trasformación y preparación de los datos, esto implicó la definición del formato de los datos asi como el balanceo de los mismos para finalmente separarlos en dos grupos, los cuales corresponden a los grupos de datos utilizados para el entrenamiento y validación, la relación del tamaño entre estos dos grupos es de 80 y 20 por el principio de pareto.
 
-Les comparto el enlace a su repositorio en github para que lo puedan revisar: 
+Proceso N°3: Consistió en el entrenamiento y validación de modelos de los predicción utilizados en el proyecto, para esta ocasión fueron los modelos de Regresión Logística, KNN y Random Forest. Finalmente, se realizó una comparación entre estos modelos, dando como resultado que el modelo de predicción que se mejor se acomoda a los datos utilizados es Random Forest.
+
+A continuación les comparto el enlace a su repositorio en github para que lo puedan revisar: 
 
 [![Github Repository](https://img.shields.io/static/v1?label=&message=Github%20Repository&color=000000&style=for-the-badge&logo=github&logoColor=white)](https://github.com/jhancp/Prediccion_de_HCV)
 
