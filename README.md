@@ -37,7 +37,7 @@ A continuación les comparto el enlace del proyecto para que lo puedas revisar:
 
 [![linkedin](https://img.shields.io/static/v1?label=&message=linkedin&color=0e76a8&logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/jhancp/)
 
-## Contratación
+## Contacto
 Si quieres contactarme, puedes escribirme a jhan.cayap@gmail.com 
 
 ## Licencia 📄
