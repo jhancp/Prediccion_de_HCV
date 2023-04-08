@@ -35,10 +35,8 @@ A continuación les comparto el enlace del proyecto para que lo puedas revisar:
 ## Autor ✒️
 **Jhan Carlos Caya Pérez**
 
-[![linkedin](https://img.shields.io/static/v1?label=&message=linkedin&color=0e76a8&logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/jhancp/)
-
 ## Contacto
-Si quieres contactarme, puedes escribirme a jhan.cayap@gmail.com 
+Si quieres contactarme, puedes escribirme por privado a mi  [![linkedin](https://img.shields.io/static/v1?label=&message=linkedin&color=0e76a8&logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/jhancp/) o por mail a jhan.cayap@gmail.com
 
 ## Licencia 📄
 MIT Public License v3.0
