@@ -1,6 +1,6 @@
 ![Header](https://user-images.githubusercontent.com/70854575/230533809-f2cb6b9c-459e-4498-a637-6ff79f86f969.jpg "Header")
 
-## Descripción 😊
+# Descripción 😊
 
 Este proyecto corresponde mi trabajo final en el [Programa de Especialización en Análisis de Datos con Python de Data Science Research Perú](https://drive.google.com/file/d/1DOwuVodwuh-Ec_fF-qsiCSzIvVybSMgY/view?usp=sharing). Tuvo como objetivo principal el poder servir de apoyo para detectar a donadores de sangre infectados con el virus de hepatitis C. Como lenguaje de programación se escogió Python. 
 
@@ -12,11 +12,14 @@ Te preguntarás, ¿Cómo puedo detectar el virus de hepatitis C en las muestras 
 
 Para responder dicha pregunta, este proyecto constó de tres etapas importantes:
 
-Etapa N°1: Consistió en la realización del análisis exploratorio de los datos, esto implica la limpieza e imputación de datos, el análisis de las variables categóricas y numéricas y el análisis de correlación entre dichas variables, esto último es importante para encontrar la relación directa entre la enfermedad y algún compuesto de la sangre.
+### Etapa N°1: 
+Consistió en la realización del análisis exploratorio de los datos, esto implica la limpieza e imputación de datos, el análisis de las variables categóricas y numéricas y el análisis de correlación entre dichas variables, esto último es importante para encontrar la relación directa entre la enfermedad y algún compuesto de la sangre.
 
-Proceso N°2: Aqui se realizó la trasformación y preparación de los datos, esto implicó la definición del formato de los datos asi como el balanceo de los mismos para finalmente separarlos en dos grupos, los cuales corresponden a los grupos de datos utilizados para el entrenamiento y validación, la relación del tamaño entre estos dos grupos es de 80 y 20 por el principio de pareto. Esto con el fin de evitar que el modelo de predicción implementado al ser entrenado pueda sufrir de sobreajuste.
+### Etapa N°2: 
+Consistió en la trasformación y preparación de los datos, esto implicó la definición del formato de los datos asi como el balanceo de los mismos para finalmente separarlos en dos grupos, los cuales corresponden a los grupos de datos utilizados para el entrenamiento y validación, la relación del tamaño entre estos dos grupos es de 80 y 20 por el principio de pareto. Esto con el fin de evitar que el modelo de predicción implementado al ser entrenado pueda sufrir de sobreajuste.
 
-Proceso N°3: Consistió en el entrenamiento y validación de modelos de los predicción implementados en el proyecto, para esta ocasión fueron los modelos de Regresión Logística, KNN y Random Forest. Finalmente, se realizó una comparación entre estos modelos, para conocer cual es el que mejor se adecua a los datos de este proyecto.
+### Etapa N°3: 
+Consistió en el entrenamiento y validación de modelos de los predicción implementados en el proyecto, para esta ocasión fueron los modelos de Regresión Logística, KNN y Random Forest. Finalmente, se realizó una comparación entre estos modelos, para conocer cual es el que mejor se adecua a los datos de este proyecto.
 
 Como conclusiones se puede indicar:
 
