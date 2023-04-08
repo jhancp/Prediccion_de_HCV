@@ -2,20 +2,33 @@
 
 ## Descripción 😊
 
-Este proyecto representó mi trabajo final en el [Programa de Especialización en Análisis de Datos con Python de Data Science Research Perú](https://drive.google.com/file/d/1DOwuVodwuh-Ec_fF-qsiCSzIvVybSMgY/view?usp=sharing), el proyecto busca poder detectar infectados por el virus de hepatitis C por medio de muestras de sangre utilizando el lenguaje de programación Python. 
-El dataset utilizado es parte de UC Irvine Machine Learning Repository:
+Este proyecto corresponde mi trabajo final en el [Programa de Especialización en Análisis de Datos con Python de Data Science Research Perú](https://drive.google.com/file/d/1DOwuVodwuh-Ec_fF-qsiCSzIvVybSMgY/view?usp=sharing). Tuvo como objetivo principal el poder servir de apoyo para detectar a donadores de sangre infectados con el virus de hepatitis C. Como lenguaje de programación se escogió Python. 
+
+El dataset utilizado se encuentra en el UC Irvine Machine Learning Repository, el cual se presenta acontinuación: 
 
 [HCV data Data Set](https://archive.ics.uci.edu/ml/datasets/HCV+data) 
 
-Este proyecto constó de tres procesos importantes para lograr el objetivo esperado:
+Te preguntarás, ¿Cómo puedo detectar el virus de hepatitis C en las muestras de sangre de donantes?
 
-Proceso N°1: Consistió en la realización del análisis exploratorio de los datos, esto implica la limpieza e imputación de datos, el análisis de las variables categóricas y numéricas y el análisis de correlación entre dichas variables.
+Para responder dicha pregunta, este proyecto constó de tres etapas importantes:
 
-Proceso N°2: Aqui se realizó la trasformación y preparación de los datos, esto implicó la definición del formato de los datos asi como el balanceo de los mismos para finalmente separarlos en dos grupos, los cuales corresponden a los grupos de datos utilizados para el entrenamiento y validación, la relación del tamaño entre estos dos grupos es de 80 y 20 por el principio de pareto.
+Etapa N°1: Consistió en la realización del análisis exploratorio de los datos, esto implica la limpieza e imputación de datos, el análisis de las variables categóricas y numéricas y el análisis de correlación entre dichas variables, esto último es importante para encontrar la relación directa entre la enfermedad y algún compuesto de la sangre.
 
-Proceso N°3: Consistió en el entrenamiento y validación de modelos de los predicción utilizados en el proyecto, para esta ocasión fueron los modelos de Regresión Logística, KNN y Random Forest. Finalmente, se realizó una comparación entre estos modelos, dando como resultado que el modelo de predicción que se mejor se acomoda a los datos utilizados es Random Forest.
+Proceso N°2: Aqui se realizó la trasformación y preparación de los datos, esto implicó la definición del formato de los datos asi como el balanceo de los mismos para finalmente separarlos en dos grupos, los cuales corresponden a los grupos de datos utilizados para el entrenamiento y validación, la relación del tamaño entre estos dos grupos es de 80 y 20 por el principio de pareto. Esto con el fin de evitar que el modelo de predicción implementado al ser entrenado pueda sufrir de sobreajuste.
 
-A continuación les comparto el enlace a su repositorio en github para que lo puedan revisar: 
+Proceso N°3: Consistió en el entrenamiento y validación de modelos de los predicción implementados en el proyecto, para esta ocasión fueron los modelos de Regresión Logística, KNN y Random Forest. Finalmente, se realizó una comparación entre estos modelos, para conocer cual es el que mejor se adecua a los datos de este proyecto.
+
+Como conclusiones se puede indicar:
+
+1. Evaluando los 3 modelos de predicción utilizados se puede decir que Random Forest es el modelo más idóneo para este caso, dado su nivel de accuracy es el más alto de los 3 modelos evaluados, el cual hace referencia a cuan bien puede predecir.
+
+2. A pesar de que Regresión Logistica es el modelo con menor exactitud entre los 3 modelos de predicción utilizados, se puede indicar que es idóneo en el caso de que se quiera utilizar para identificar pacientes que padecen Cirrosis.
+
+3. Es necesario balancear el dataset debido a que se tenia una clase muy superior al resto, esto podria traer como consecuencias a que el algoritmo generado no pueda pueda predecir adecuadamente y caer en overfitting.
+
+4. Como mejora futura se puede proponer enfocar esta investigación en la detección de pacientes con cirrosis, utilizando como variable principal la enzima AST, dado que esta encima tiene mucha relevancia en la salud del higado. Así como también se podria cambiar el enfoque y buscar dectar si el donante puede estar contagiado de VHC basado en el Cociente AST/ALT.
+
+A continuación les comparto el enlace a su repositorio en github para que lo puedas revisar: 
 
 [![Github Repository](https://img.shields.io/static/v1?label=&message=Github%20Repository&color=000000&style=for-the-badge&logo=github&logoColor=white)](https://github.com/jhancp/Prediccion_de_HCV)
 
