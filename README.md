@@ -30,7 +30,7 @@ Como conclusiones se puede indicar:
 
 A continuación les comparto el enlace del proyecto para que lo puedas revisar: 
 
-[Predicción de HCV](https://github.com/jhancp/Prediccion_de_HCV/blob/main/Prediccion_VHC.ipynb)  :+1: 
+[Predicción de HCV](https://github.com/jhancp/Prediccion_de_HCV/blob/main/Prediccion_VHC.ipynb) 
 
 ## Autor ✒️
 **Jhan Carlos Caya Pérez**
